@@ -9,9 +9,7 @@ class TTTBoard:
         board - a list of '*'s, 'X's & 'O's. 'X's represent moves by player 'X', 'O's
             represent moves by player 'O' and '*'s are spots no one has yet played on
     """
-
-    pass
-
+    board= ["*********"]
 
 def play_tic_tac_toe() -> None:
     """Uses your class to play TicTacToe"""
