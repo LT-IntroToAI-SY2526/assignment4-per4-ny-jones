@@ -1,7 +1,7 @@
 # object oriented programming
 
 # (define-struct dog [fur_color name age favorite_food])
-class dog:
+class Dog:
     def __init__(self, breed = "dog", fur_color = "black", name = "no name", age = 1):
         """Initialize a new Dog with breed, fur_color, name and age"""
         self.breed = breed
